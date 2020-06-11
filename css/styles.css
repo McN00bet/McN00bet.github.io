@@ -186,7 +186,7 @@ footer {
 
 @media(max-width: 768px) {
     #description h1 {
-        font-size: 64px;
+        font-size: 48px;
     }
 
     #description p {
