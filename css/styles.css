@@ -1,3 +1,5 @@
+/*TODO: implement resizable fonts*/
+
 * {
     margin: 0;
     padding: 0;
@@ -57,7 +59,7 @@ header a:hover {
 }
 
 #showcase {
-    width: 100%;
+    width: 100vw;
     height: 90vh;
     margin-top: 60px;
     /* min-height: 512px; */
@@ -139,7 +141,7 @@ article#sidebar {
 
 article#sidebar h2 {
     margin-top: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -149,7 +151,6 @@ footer {
     text-align: center;
     min-height: 15vh;
     min-width: 100%;
-    overflow: hidden;
     padding-bottom: 40px;
     /* display: flex; */
     /* box-sizing: border-box; */
