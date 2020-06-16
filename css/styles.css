@@ -32,6 +32,7 @@ header {
     display: flex;
     z-index: 10;
     align-items: center;
+    box-shadow: 0px 0px 8px 0px;
 }
 
 .menu-item a{
@@ -133,6 +134,12 @@ section {
 
 } 
 
+main h2 {
+    margin-top: 90px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 /* #showcase h1 {
     position: absolute;
     margin-top: 100px;
@@ -141,18 +148,34 @@ section {
     font-size: 64px;
 } */
 
+/* portfolio class*/
+.tradingview-widget-container {
+    /* margin-top: 80px; */
+    overflow: hidden;
+    /* min-width: 400px; */
+    min-height: calc(100% - 80px);
+
+}
+
+
+/* #tradingview_14835-wrapper div {
+    height: 20px;
+} */
+
 footer {
     background-color: #202020 ;
     color: white;
     text-align: center;
     min-height: 100%;
-    min-width: 100%;
+    min-width: 400px;
+  
     overflow: hidden;
     padding-bottom: 40px;
     /* display: flex; */
     /* box-sizing: border-box; */
     position: relative;
     z-index: 1;
+    overflow: hidden;
 
 }
 
